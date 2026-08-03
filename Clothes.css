@@ -1,5 +1,5 @@
  .u-section-1 {
-  min-height: 985px;
+  min-height: 1081px;
 }
 
 .u-section-1 .u-image-1 {
@@ -7,7 +7,7 @@
   margin-top: 0;
   margin-bottom: 0;
   background-image: url('images/ENCABEZADO1-127.jpg'), linear-gradient(to bottom, rgba(71, 138, 201, 1), rgba(71, 138, 201, 1));
-  min-height: 729px;
+  min-height: 948px;
   background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
@@ -45,9 +45,9 @@
 
 .u-section-1 .u-text-1 {
   font-family: "Baloo 2";
-  font-weight: 700;
-  --text-color-var: images/117-20.gif66c3ff;
+  --text-color-var: #66c3ff;
   text-transform: uppercase;
+  font-weight: 700;
   margin: 10px 0 0;
 }
 
@@ -72,7 +72,7 @@
 .u-section-1 .u-image-4 {
   width: 179px;
   height: 179px;
-  margin: -715px auto 0 424px;
+  margin: -715px auto 536px 424px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -83,7 +83,7 @@
   font-weight: 700;
   font-family: "Baloo 2";
   font-size: 1.25rem;
-  margin: 134px calc(((100% - 1320px) / 2)  + 163px) 55px auto;
+  margin: 26px calc(((100% - 1320px) / 2)  + 126px) 40px auto;
   padding: 5px 39px 5px 38px;
 }
 
@@ -123,7 +123,7 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 980px;
+    min-height: 1109px;
   }
 
   .u-section-1 .u-image-2 {
@@ -135,9 +135,9 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-top: 127px;
-    margin-right: calc(((100% - 940px) / 2));
-    margin-bottom: 0;
+    margin-top: 69px;
+    margin-right: auto;
+    margin-bottom: 24px;
     padding-left: 51px;
     padding-right: 51px;
   }
@@ -145,7 +145,7 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 971px;
+    min-height: 1142px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -168,8 +168,8 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-right: calc(((100% - 720px) / 2));
-    margin-bottom: -11px;
+    margin-top: 58px;
+    margin-bottom: 33px;
     padding: 23px 10px;
   }
 }
@@ -177,6 +177,10 @@
 @media (max-width: 767px) {
    .u-section-1 {
     min-height: 1050px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 955px;
   }
 
   .u-section-1 .u-image-3 {
@@ -207,12 +211,15 @@
 
   .u-section-1 .u-btn-2 {
     margin-top: 195px;
-    margin-right: auto;
     margin-bottom: 12px;
   }
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 1155px;
+  }
+
   .u-section-1 .u-image-2 {
     width: 91px;
     height: 105px;
@@ -243,8 +250,8 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-top: 197px;
-    margin-bottom: 10px;
+    margin-top: 43px;
+    margin-bottom: 54px;
   }
 }.u-block-b45f-2 {
   position: absolute;
@@ -290,7 +297,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -330px auto 22px;
+  margin: -333px auto 25px;
 }
 
 .u-section-2-1 .u-container-layout-1 {
@@ -303,7 +310,7 @@
   font-weight: 700;
   font-size: 3rem;
   text-transform: uppercase;
-  margin: 21px 0 0;
+  margin: 22px 0 0;
 }
 
 .u-section-2-1 .u-text-2 {
@@ -314,7 +321,7 @@
   --animation-custom_in-scale: 1;
   font-family: "Comic Neue";
   font-size: 1.5rem;
-  margin: 16px 0 0;
+  margin: 15px 0 0;
 }
 
 .u-section-2-1 .u-btn-1 {
@@ -360,7 +367,14 @@
 
 @media (max-width: 991px) {
   .u-section-2-1 .u-sheet-1 {
-    min-height: 544px;
+    min-height: 989px;
+  }
+
+  .u-section-2-1 .u-image-1 {
+    margin-top: 9px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2-1 .u-group-1 {
@@ -1866,17 +1880,13 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-4 {
-    min-height: 1050px;
-  }
-
   .u-section-4 .u-text-1 {
     width: 340px;
   }
 
   .u-section-4 .u-table-1 {
-    margin-top: 39px;
-    margin-bottom: 60px;
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
 }.u-section-5 .u-sheet-1 {
   min-height: 723px;
@@ -3159,19 +3169,19 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 1748px;
+    min-height: 1742px;
   }
 
   .u-section-6 .u-layout-wrap-1 {
-    margin-top: 87px;
-    margin-bottom: 19px;
+    margin-top: 85px;
+    margin-bottom: 50px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-6 .u-layout-cell-1 {
-    min-height: 1416px;
+    min-height: 1406px;
   }
 
   .u-section-6 .u-text-1 {
@@ -3191,7 +3201,7 @@
   }
 
   .u-section-6 .u-image-1 {
-    min-height: 226px;
+    min-height: 201px;
   }
 } .u-section-7 {
   background-image: url('images/ENCABEZADOFIJO1-136.png'), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
